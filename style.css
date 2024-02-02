@@ -1,0 +1,219 @@
+
+body{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+.first_section{
+    background-color: #1f2937;
+    color: white;
+    padding-bottom: 100px;
+
+}
+
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-header{
+    display: flex;
+    font-weight: 800;
+    margin-left: 160px;
+    margin-bottom: 120px;
+    margin-top: 15px;
+}
+
+.links{
+    display: flex;
+    margin-right: 160px;
+    margin-bottom: 120px;
+    margin-top: 15px;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    display: flex;
+  }
+
+  a {
+    font-size: 12px;
+    color: white;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+  .hero{
+   display: flex;
+   justify-content: space-between;
+   gap: 16px;
+  }
+
+  .left-side{
+    justify-content: center;
+    padding: 20px;
+    margin-left: 160px;
+    
+  }
+
+  .right-side{
+    background-color: darkgray;
+    border: 5px darkgray;
+    height: 150px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 160px;
+    padding: 60px;
+    
+  }
+
+  .title{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+  }
+
+
+  .text-one{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+  }
+
+  .sign-up{
+        background: #3882f6;;
+        border: 1px solid #3882f6;
+        color: white;
+        cursor: pointer;
+        padding: 6px 24px;
+        border-radius: 8px;
+        flex-shrink: 0;
+      }
+
+    .second-section{
+        text-align: center;
+        align-items: center;
+    
+    }
+
+    .title-two{
+        text-align: center;
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1f2937;
+        padding-top: 30px;
+    }
+
+    .info{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        padding-top: 60px;
+    }
+    
+    .btm-text{
+        max-width: 175px;
+    }
+
+    .stuff{
+        background: white;
+        border: 2px solid #3882f6;
+        border-radius: 10px;
+        height: 175px;
+        width: 175px;
+    }
+
+    .text-three{
+        font-size: 18px;
+        color: gray;
+        padding-bottom: 120px;
+    }
+
+    .section-three{
+        background: #E5E7EB;
+        padding-bottom: 75px;
+    }
+
+    .quote{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 36px;
+        font-style: italic;
+        padding-top: 120px;
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+
+    .author{
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 900px;
+    }
+
+    .final-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+
+    .main-text{
+        background: #3882f6;
+        width: 1100px;
+        height: 125px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container-one{
+        padding-left: 100px;
+    }
+
+    .big-text{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .small-text{
+        color: white;
+        margin-top: 5px;
+    }
+
+    .container-two{
+        padding-right: 100px;
+    }
+
+    .the-button{
+        padding: 3px 25px;
+        font-size: 16px;
+        color: white;
+        background-color:#3882f6;
+        border: 2px solid white;
+        border-radius: 4px;
+    }
+
+    .footer{
+        background: #1f2937;
+        padding: 30px;
+    }
+
+    .ftr-text{
+        color: white;
+        text-align: center;
+    }
+  
